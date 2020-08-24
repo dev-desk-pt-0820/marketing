@@ -1,0 +1,470 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i");
+ 
+/* CSS RESET Begins */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+   /* border: 0.5px dotted grey; */
+    font-size: 62.5%;
+    font: inherit;
+    letter-spacing:1px;
+    vertical-align: baseline;
+    font-family:'Roboto Mono',serif;
+ }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.5;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS RESET section ENDS */
+
+/* every element is a border-box */
+* {
+  box-sizing: border-box;
+}
+
+/* start your css here */
+
+body {
+  /* font-family: 'Source Sans Pro', sans-serif;	 */
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size:62.5%;
+  text-align:center;
+  max-width:100%;
+  margin:0 auto;
+}
+
+header {   
+    width:100%;
+    height:5rem;
+    padding-bottom:8%;
+    background-color: snow;
+}
+
+h1{
+    font-size:3rem;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+    padding:0.5%;
+    text-align: left; 
+ }
+ h2{
+    font-size:1.8rem;
+    font-weight: 500;
+    color:#3DC5AD; 
+    padding:1%;
+    text-align: left;
+    font-style: initial;
+ }
+ h3{
+    position:absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left:18%;
+    top: 18%; /* Adjust this value to move the positioned div up and down */
+    width: 60%; /* Set the width of the positioned div */
+    font-size:3rem;
+    font-weight: 500;
+    font-style: oblique;
+    color:black;
+    padding:1%;
+    text-align: center;
+ }
+ h4{
+    font-size:1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    color:#3DC5AD;
+    padding:0.5%;
+    text-align: left;
+    line-height: 0px;
+ }
+ nav {
+    margin: 0% auto;
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    font-size:1.2rem;
+    font-style: Bold;
+    font-weight: 500;
+    color: #74CBC1;
+    padding-bottom:0%; 
+    margin-left: 10%;
+    text-align: center;
+     }
+     .logo{
+        display:flex;
+        text-align: left;
+        padding-top: 2%;
+        padding-bottom: 0.2%;
+        padding-left: 1%;
+        padding-right: 0.2%;
+     }
+   .name{
+      color:#3f3f3f;
+      font-size: 1.2rem;
+      font-weight: 800;
+      letter-spacing: 0.025rem;
+   }
+   .name:before, .name strong {
+      color:#74CBC1;
+      transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+    a {
+    color: slategray;
+    text-decoration: none;
+    background-color: #fff;
+    width:15%;
+    padding-bottom: 0%;
+    /* padding-top: 2rem; 
+    
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; */
+    transition: background-color 0.5s;
+  }
+   a:hover {
+      background-color: snow;
+      color:#74CBC1;
+      padding-bottom: 0.25rem;
+      border-bottom: 0.2rem solid #74CBC1;
+    }
+
+
+ a:link, a:visited {
+    color:#74CBC1;
+    text-decoration: none;
+ }
+  
+  banner{
+    display:flex;
+    padding-top: 5%;
+    color:white;
+    width:100%;
+    height:30rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 auto;
+    font-size:2.5rem;
+    font-style: italic;
+    font-weight: 300;
+    background-image: url('/asset/duy-pham-Cecb0_8Hx-o-unsplash.jpg');
+    /* background-image: url('asset/matthew-t-rader-CVmzj-a8Fmg-unsplash.jpg'); */
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	border-top: 0.5em solid,#3DC5AD;
+  }
+ 
+banner p{
+    position:absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left:18%;
+    top: 30%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    font-size:1.6rem;
+    font-weight: 300;
+    font-style: normal;
+    color:black;
+    text-align:center;
+}
+  .midcontainer{
+    max-width:95%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content:center;
+    flex-wrap: wrap;
+    margin:0 auto;
+    font-size:1.4rem;
+    font-weight: 200;
+    font-style: oblique;
+  }
+/* .midcontainer:nth-child(4){
+flex-direction: row-reverse;
+} */
+   .midcontainer p{
+      font-size:1.4rem;
+      font-style: normal;
+      /* font-style: oblique; */
+      font-weight: 300;
+      color: black;
+      padding:0.5%;
+      text-align: left; 
+}
+  .midcontainer img{
+   width:75%;
+   height:25rem;
+   object-fit: contain;
+   
+  }
+  .midcontainer div{
+    margin:1rem;
+    align-items: center;
+    width:45%;
+    padding-left:0%;
+    padding-right:0rem;
+    padding-top:2%;
+  }
+  .learn{
+    margin-top:5%;
+    transition: background-color 0.3s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 4px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-weight: 600;
+		font-size: 1rem;
+		height: 3rem;
+		line-height: 3rem;
+		padding: 0 2.5rem;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		text-transform: uppercase;
+      letter-spacing: 0.025rem;
+      background-color: #74CBC1;
+      color:white;
+  }
+  .learn:hover {
+   background-color: #36b39d;
+   color: #ffffff !important;
+}
+.like::before{
+   content: '';
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   width: 6.5rem;
+   height: 0.25rem;
+   margin-left: 35rem;
+   text-align: center;
+   /* opacity: 0%; */
+   /* margin: 2rem 0 1.5rem 0; */
+   border-radius: 4px;
+   background-color: #3dc5ad;
+}
+
+  footer{
+    /* background-color:#74CBC1; */
+   margin-top: 4rem;
+   }
+ 
+   
+   footer a:link, a:visited {
+      color:black;
+      text-decoration: none;
+   }
+   
+   footer  a:hover {
+      /* background-color: white; */
+      color:black;
+    }
+   
+   footer .like::before{
+         content: '';
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 6.5rem;
+         height: 0.25rem;
+         margin-left: 35rem;;
+         /* margin: 2rem 0 1.5rem 0; */
+         border-radius: 4px;
+         background-color: #3dc5ad;
+     }
+   footer h4{
+      text-align: center;
+      margin-bottom: 0.5rem;
+      padding-top: 2.5%;
+      padding-bottom: 1%; 
+      font-size:1.5rem;
+      line-height: 0.2rem;
+      font-style: italic;
+         /* My animation */
+     animation-name:myanim;
+     animation-duration:3s;
+     animation-timing-function:ease-in-out;
+     animation-delay:1s; /*wait before start of animation */
+     animation-iteration-count:infinite; /* name,duration, timing function,delay,count */
+   }
+   /* keyframes rule to specify animation code */
+   @keyframes myanim{
+     0%{
+     color:  grey;
+     transform: skewY(0.5deg);}
+     40%{ 
+     color:snow;
+     transform: skewY(0.5deg);}  
+     70%,75%{
+      color:#74CBC1;
+      transform: skewY(2deg);
+     }
+      80%,90%,95%{
+       color: lightgrey;
+       transform: skewY(1deg);
+     }
+     100%{
+       color:#74CBC1;
+       transform: skewY(0deg);
+     }
+   }
+   
+   
+   /* social icons in footer */
+   
+  footer h4{
+ text-align: center;
+  }
+  footer img{
+      width:80%;
+      height:30rem;
+      padding:2%;
+      object-fit: contain;
+  }
+
+  /* social icons in footer */
+.footersocialicons a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .footersocialicons ul {
+    padding-bottom:10%;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    }
+ 
+ .socialicons{
+    margin:0% 0% 0% 4%;
+ }
+  
+ .fa-facebook {
+    padding:15% 15%;
+    border-radius: 45%;
+    transition: .3s;
+    background-color:#74CBC1;
+ }
+ .fa-facebook:hover {
+    background-color: #3d5b99;
+ }
+ .fa-twitter {
+    padding:15% 15%;
+    border-radius: 45%;
+    transition: .3s;
+    background-color:#74CBC1;
+ }
+ .fa-twitter:hover {
+    background-color: #00aced;
+ }
+  
+ .fa-youtube {
+    padding:15% 15%;
+    border-radius: 45%;
+    transition: .3s;
+    background-color:#74CBC1;
+ }
+ .fa-youtube:hover {
+    background-color: #e64a41;
+ }
+ .fa-linkedin {
+    padding:15% 15%;
+    border-radius: 45%;
+    transition: .3s;
+    background-color:#74CBC1;
+ }
+ .fa-linkedin:hover {
+    background-color: #0073a4;
+ }
+ .fa-github {
+    padding:15% 15%;
+    border-radius: 45%;
+    transition: .3s;
+    background-color:#74CBC1;
+ }
+ .fa-github:hover {
+    background-color: #5a32a3;
+ }
+ 
+ /* for mobile - with Media Pixel of up to 500px display column*/
+@media only screen and (max-width: 500px){
+   nav {
+     flex-direction:column;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     } 
+   a{
+      font-size: 1.3rem;
+      padding:.5%;
+      width:25%;
+   }
+   h3{
+      left:18%;
+      top: 32%; /* Adjust this value to move the positioned div up and down */
+      width: 60%; /* Set the width of the positioned div */
+      font-size:2rem;
+   } 
+   banner{
+      margin-top: 25%;
+      opacity: 90%;
+   }
+   banner p{
+    opacity:0%;
+   }
+  .midcontainer{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin:10%;
+     padding:1%,1%;
+     width:90%;
+  }
+  .midcontainer img{
+     padding:0%;
+  }
+  
+  h2{
+   font-size:2rem;
+   text-align: center;
+}
+}
