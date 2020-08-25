@@ -96,7 +96,7 @@ h1{
     left:18%;
     top: 18%; /* Adjust this value to move the positioned div up and down */
     width: 60%; /* Set the width of the positioned div */
-    font-size:2.4rem;
+    font-size:2rem;
     font-weight: 300;
     font-style: oblique;
     color:black;
@@ -251,7 +251,7 @@ banner p{
     padding-bottom:1rem;
 }
   .midcontainer img{
-   width:60%;
+   width:55%;
    border-radius: 100%;
    object-fit: contain;
    align-content: flex-start;
@@ -262,9 +262,9 @@ banner p{
   .midcontainer div{
     margin:1rem;
     background-color: whitesmoke;
-    width: 30%;
-    padding-top:5%;
-    padding-bottom:5%;
+    width: 25%;
+    padding-top:3%;
+    padding-bottom:3%;
     border-radius: 4%;
     /* border-bottom: 1px dashed black; */ 
   }

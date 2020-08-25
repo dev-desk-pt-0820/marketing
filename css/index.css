@@ -139,7 +139,10 @@ h1{
  /* .home{
    color:#74CBC1;
  } */
- 
+ a::before {
+   color:black;
+   text-decoration: none;
+}
  a:link, a:visited {
    color:#74CBC1;
    text-decoration: none;
