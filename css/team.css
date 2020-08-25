@@ -175,9 +175,9 @@ h1{
    display: none;
  }
  
- .about{
+ /* .about{
    color:#74CBC1;
- }
+ } */
  
  .logincontainer{
     display:flex;
@@ -482,7 +482,7 @@ header{
    padding-top: 0.1rem;
    align-self:flex-end;
    justify-content:space-evenly;
-    
+   align-items: flex-end;
 }
 
 /* Make Navbar Items not Visible on mobile*/    
@@ -504,6 +504,7 @@ header{
 .NavbarItemsright {
     margin-left:0;
     align-self: center;
+    padding:0%;
   }
    
 .NavbarToggleShow {
@@ -544,7 +545,7 @@ banner p{
    width: 70%; /* Set the width of the positioned div */
    font-size:1.2rem;
    font-weight: 300;
-   opacity: 95%;
+   opacity: 90%;
    }
  
 .mlogin{

@@ -136,9 +136,9 @@ h1{
    font-weight: bold;
    border-bottom: 0.2rem solid #74CBC1;
  }
- .home{
+ /* .home{
    color:#74CBC1;
- }
+ } */
  
  a:link, a:visited {
    color:#74CBC1;
@@ -175,7 +175,7 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     margin:0 auto;
-    font-size:2.5rem;
+    font-size:2.4rem;
     font-style: italic;
     font-weight: 300;
     background-color: whitesmoke;
@@ -198,8 +198,8 @@ banner p{
     top: 28%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 65%; /* Set the width of the positioned div */
-    font-size:1.5rem;
-    font-weight: 800;
+    font-size:1.4rem;
+    font-weight: 500;
     font-style: normal;
     color:black;
     text-align:center;
@@ -504,7 +504,8 @@ banner p{
    }
  .NavbarItemsright {
      margin-left:0;
-     /* align-items: flex-end; */
+     align-items: flex-end;
+     padding:0%;
    }
    
  .NavbarToggleShow {
@@ -534,7 +535,7 @@ banner p{
    }
 h3{
    left:4%;
-   top: 29%; /* Adjust this value to move the positioned div up and down */
+   top: 27%; /* Adjust this value to move the positioned div up and down */
    width: 90%; /* Set the width of the positioned div */
    font-size:2rem;
    padding:0.5%;
