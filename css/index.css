@@ -88,9 +88,9 @@ h1{
     z-index: 999;
     margin: 0 auto;
     left:21%;
-    top: 12%; /* Adjust this value to move the positioned div up and down */
+    top: 10%; /* Adjust this value to move the positioned div up and down */
     width: 60%; /* Set the width of the positioned div */
-    font-size:2.4rem;
+    font-size:2.2rem;
     font-weight: 500;
     font-style: oblique;
     color:black;
@@ -113,7 +113,7 @@ h1{
    display: flex;
    padding: 1.6%;
    color: black;
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    font-family: "Raleway", Helvetica, sans-serif;
    font-weight:500;
  }
@@ -172,33 +172,34 @@ h1{
     flex-wrap: wrap;
  }
   banner{ 
-    display:flex;
-    width:100%;
-    height:32rem;
-    flex-wrap: wrap;
-    justify-content: center;
     margin:0 auto;
-    font-size:2.4rem;
-    font-style: italic;
-    font-weight: 300;
-    background-color: whitesmoke;
-    background-image: url('/asset/duy-pham-Cecb0_8Hx-o-unsplash_large.jpg');
+    display:flex;
+    justify-content: center;
+    width:100%;
+    /* flex-wrap: wrap;  */
+    /* background-color: rgb(207, 248, 248);Used if the image is unavailable */
+    /* background-image: url('/asset/duy-pham-Cecb0_8Hx-o-unsplash_large.jpg'); */
     /* background-image: url('asset/matthew-t-rader-CVmzj-a8Fmg-unsplash.jpg'); */
-	background-size: cover;
+	/* background-size: cover;
 	background-position: top;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
    text-align: center;
    opacity: 95%;
-	/* border-top: 0.5em solid,#3DC5AD; */
+	border-top: 0.5em solid,#3DC5AD; */
   }
- 
+ banner img{
+    width: 100%;
+    opacity: 90%;
+    object-fit:cover;
+    height: 35rem;
+ }
 banner p{
     position:absolute;
     z-index: 999;
     margin: 0 auto;
-    left:19%;
-    top: 28%; /* Adjust this value to move the positioned div up and down */
+    left:18%;
+    top: 26%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 65%; /* Set the width of the positioned div */
     font-size:1.4rem;
@@ -221,9 +222,6 @@ banner p{
     align-content:center;
     flex-wrap: wrap;
     margin:0 auto;
-    font-size:1.4rem;
-    font-weight: 200;
-    font-style: oblique;
   }
  
   .midcontainer2{
@@ -236,7 +234,7 @@ banner p{
    flex-wrap: wrap;
 }
    .midcontainer p{
-      font-size:1.4rem;
+      font-size:1.2rem;
       font-style: normal;
       font-weight: 300;
       color: black;
@@ -244,8 +242,8 @@ banner p{
       text-align: left; 
 }
   .midcontainer img{
-   width:75%;
-   height:25rem;
+   width:65%;
+   height:20rem;
    object-fit: contain;
    
   }
@@ -257,17 +255,7 @@ banner p{
     padding-right:0rem;
     padding-top:2%;
   }
-  /*Welcome to reach in Banner */
-  .mlogin{
-   position:absolute;
-   z-index: 999;
-   margin: 0 auto;
-   left:45%;
-   top: 33%; /* Adjust this value to move the positioned div up and down */
-   width: 10%; /* Set the width of the positioned div */
-   border: 0;
-}
-  .learn, .mlogin{
+  .learn{
     margin-top:5%;
     transition: background-color 0.3s ease-in-out, color 0.2s ease-in-out;
 		border-radius: 4px;
@@ -292,12 +280,6 @@ banner p{
    background-color: #36b39d;
    color: #ffffff !important;
    transition: 0.25s;
-}
-.mlogin:hover {
-   background-color: #36b39d;
-   color:black;
-   transition: 0.25s;
-   /* color: #ffffff !important; */
 }
 
 .end {
@@ -543,13 +525,10 @@ h3{
    font-size:2rem;
    padding:0.5%;
 }
-.mlogin{
-   display:none;
-}
-
+ 
 banner {
    margin-top:10%;
-   height:45rem;
+   height:10rem;
 }
 
 banner p{
@@ -559,39 +538,35 @@ banner p{
     top: 38%; /* Adjust this value to move the positioned div up and down */
     width: 85%; /* Set the width of the positioned div */
     font-size:1.2rem;
-    font-weight: bold;
-   ;
+    font-weight: 500;
 }
 
 .midcontainer{
-   flex-direction: column; 
-   /* font-size:1.4rem;
-   font-weight: 200;
-   font-style: oblique; */
+   flex-direction: column;   
  }
 
  .midcontainer p{
    text-align: left; 
+   font-size: 1.2rem;
 }
 .midcontainer img{
 width:85%;
 height:15rem; 
-
 }
 .midcontainer div{
   width:80%;
 }
-.mlogin{
+/* .mlogin{
    position:absolute;
    z-index: 999;
    margin: 0 auto;
    left:38%;
    top: 10%; /* Adjust this value to move the positioned div up and down */
-   width: 26%; /* Set the width of the positioned div */
-   text-align: center;
-}
+   /* width: 26%; /* Set the width of the positioned div */
+   /* text-align: center; */
+/* }  */ 
 .learn{
-     font-size: 1rem;
+     font-size: 0.8rem;
      height: 2.8rem;
      line-height: 2rem;
      padding: 0 1rem;
@@ -605,9 +580,8 @@ height:15rem;
  }
  
  .footersocialicons a{
-   width: 4rem;
+   width: 4.2rem;
 }
- 
 }
 
 
@@ -662,34 +636,33 @@ height:15rem;
         border-bottom: 0.1rem solid snow;
       }
       h2{
-         font-size:1.8rem;
+         font-size:1.6rem;
          padding:1%;
          text-align: center;
       }
-  h3{
+   h3{
      left:2%;
-     top: 30%; /* Adjust this value to move the positioned div up and down */
+     top: 20%; /* Adjust this value to move the positioned div up and down */
      width: 90%; /* Set the width of the positioned div */
      font-size:2rem;
      padding:0.5%;
   }
-  .mlogin{
-     display:none;
-  }
   
   banner {
-     margin-top:2%;
-     height:25rem;
-  }
+     margin-top:4%
+    }
+   banner img{
+      height: 30rem;
+   }
   
   banner p{
      /* font-size: 1.6rem; */
      padding:1%;
       left:6%;
-      top: 38%; /* Adjust this value to move the positioned div up and down */
+      top: 32%; /* Adjust this value to move the positioned div up and down */
       width: 85%; /* Set the width of the positioned div */
-      font-size:1.2rem;
-      font-weight: bold;
+      font-size:1.3rem;
+      font-weight: 500;
   }
   
   .midcontainer{
@@ -698,7 +671,7 @@ height:15rem;
   
    .midcontainer p{
      text-align: left; 
-     font-size: 1.3rem;
+     font-size: 1.2rem;
   }
   .midcontainer img{
   width:70%;
@@ -706,15 +679,6 @@ height:15rem;
   }
   .midcontainer div{
     width:80%;
-  }
-  .mlogin{
-     position:absolute;
-     z-index: 999;
-     margin: 0 auto;
-     left:38%;
-     top: 10%; /* Adjust this value to move the positioned div up and down */
-     width: 26%; /* Set the width of the positioned div */
-     text-align: center;
   }
   .learn{
        font-size: 0.8rem;
