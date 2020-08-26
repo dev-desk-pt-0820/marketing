@@ -526,10 +526,10 @@ h3{
    padding:0.5%;
 }
  
-banner {
+/* banner {
    margin-top:10%;
    height:10rem;
-}
+} */
 
 banner p{
    font-size: 1.2rem;
@@ -642,7 +642,7 @@ height:15rem;
       }
    h3{
      left:2%;
-     top: 20%; /* Adjust this value to move the positioned div up and down */
+     top: 25%; /* Adjust this value to move the positioned div up and down */
      width: 90%; /* Set the width of the positioned div */
      font-size:2rem;
      padding:0.5%;
@@ -659,7 +659,7 @@ height:15rem;
      /* font-size: 1.6rem; */
      padding:1%;
       left:6%;
-      top: 32%; /* Adjust this value to move the positioned div up and down */
+      top: 35%; /* Adjust this value to move the positioned div up and down */
       width: 85%; /* Set the width of the positioned div */
       font-size:1.3rem;
       font-weight: 500;

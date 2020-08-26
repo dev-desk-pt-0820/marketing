@@ -113,7 +113,7 @@ h1{
     line-height: 0px;
  }
  h5{
-    font-size:1.6rem;
+    font-size:1.3rem;
     font-weight: bold;
     font-style: initial;
     color:black;
@@ -245,7 +245,7 @@ banner p{
   }
   
   .midcontainer div{
-    margin:1rem;
+    margin:1.5rem;
     background-color: whitesmoke;
     width: 28%;
     padding-top:2%;
@@ -475,6 +475,9 @@ header{
     display:none;
   }
 
+  h5{
+   font-size:1.2rem;
+}
   footer .NavbarItems{
      display:flex;
      flex-direction: row;
@@ -524,6 +527,7 @@ h3{
   font-size:2rem;
   padding:0.5%;
 }
+
 banner p{
    left:18%;
    top: 32%; /* Adjust this value to move the positioned div up and down */
@@ -532,7 +536,7 @@ banner p{
    font-weight: 300;
    opacity: 90%;
    }
- 
+  
 .mlogin{
   display:none;
 }
@@ -543,9 +547,9 @@ banner p{
   margin: 0 auto;
   left:38%;
   top: 10%; /* Adjust this value to move the positioned div up and down */
-  width: 26%; /* Set the width of the positioned div */
+   width: 26%; /* Set the width of the positioned div */
   text-align: center;
-}
+} 
 
 .midcontainer{
    flex-direction: column;
@@ -556,8 +560,9 @@ banner p{
 
  
 .midcontainer div{
-   width:60%;
+   width:50%;
    margin-top: 3rem;
+   padding: 1rem;
 }
 /* Hide toggle icon for footer view */
 footer .NavbarLink-toggle {
@@ -620,7 +625,8 @@ footer img{
      width: 26%; /* Set the width of the positioned div */
      text-align: center;
    }
-   
+  
+ 
    .midcontainer{
       flex-direction: column;
       justify-content: space-evenly;
@@ -676,6 +682,10 @@ footer img{
     width: 90%; /* Set the width of the positioned div */
     font-size:2rem;
     padding:0.5%;
+ }
+
+ h5{
+    font-size: 1.4rem;
  }
  .mlogin{
     display:none;

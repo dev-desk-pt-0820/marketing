@@ -144,6 +144,8 @@ h1{
  }
  
  banner{
+ margin: 0 auto;
+ max-width: 100%;
  display:flex;
  flex-wrap: wrap;
  flex-direction: column;
@@ -152,6 +154,7 @@ h1{
  }
 
  .cimage{
+   max-width: 100%;
    object-fit: contain;
    height: 18rem;
  }
@@ -255,8 +258,8 @@ footer .navbar{
 }
 footer .NavbarLink {
  margin:0%;
- padding-right:4rem;
- padding-left: 4rem;
+ padding-right:3rem;
+ padding-left: 3rem;
 }
 
 footer .NavbarItemsright {
