@@ -21,7 +21,7 @@
             </nav>
             <nav class="NavbarItems NavbarItemsright">
                 <a href="index.html" class="NavbarLink">Home</a>
-                <a href="login.html" class="NavbarLink">Login</a>
+                <a href="https://react-iota.vercel.app/login" class="NavbarLink">Login</a>
                 <a href="team.html" class="NavbarLink about">About Us</a>
                 <a href="contact.html" class="NavbarLink">Contact</a>
             </nav>
@@ -44,33 +44,42 @@
         <div class='id'>
             <div class="name">
                 <label>Your Name</label>
-                <input type="text" required/>
+                <input type="text" id="name" placeholder="Enter your Namer here">
             </div>
             <div class="email">
                 <label>Your Email</label>
-                <input type="text" required/>
-            </div>
+                <input type="text" id="email" placeholder="Enter your Email ID">
         </div>
+        </div>
+        <section class="phonesub">
         <div class='phone'>
-            <label>Phone Number</label>
-            <input type="text" required/>
+            <label>Phone No.</label>
+            <input type="text" id="phonenum" placeholder="Enter your Phone number here">
         </div>        
 
         <div class='subject'>
             <label>Subject</label>
-            <input type="text" required/>
+            <input type="text" id="subj" placeholder="Enter your Subject here">
         </div>
+        </section>
+
         
         <div class='Message'>
             <label>Message for us!</label>
-            <input type="text" required/>
+            <textarea rows="8" placeholder="Enter your message please"></textarea>
         </div>
         
-        <div class='send'>
-            <button>Send Message</button>
+        <div class='buttonclass'>
+            <button class='send'>Send Message</button>
         </div>
     </section>
-    <footer> 
+    <footer>
+        <section class="fimgcontainer">
+        <div>
+        <img src="/asset/undraw_work_together_h63l.svg" alt="Work together as team footer"/>
+        </div>
+        </section>
+        
         <section class="navbar">
             <a class="NavbarLink NavbarLink-brand" href="index.html">DevDesk<br><span class="logo"></span></a>
             <div class="NavbarLink NavbarLink-toggle">
@@ -81,12 +90,23 @@
             </nav>
             <nav class="NavbarItems NavbarItemsright">
                 <a href="index.html"class="NavbarLink">Home</a>
-                <a href="#"class="NavbarLink">Login</a>
+                <a href="https://react-iota.vercel.app/login"class="NavbarLink">Login</a>
                 <a href="team.html" class="NavbarLink">About Us</a>
                 <a href="contact.html"class="NavbarLink">Contact</a>
             </nav>
         </section> 
-</footer>
+        
+        <section class="footersocialicons">
+            <h4>Follow us here !</h4>
+            <ul class="socialicons">
+                <a href="#"> <i class="fa fa-facebook"></i></a>
+                <a href="#"> <i class="fa fa-twitter"></i></a>
+                <a href="#"> <i class="fa fa-youtube"></i></a>
+                <a href="#"> <i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/KVlearn"> <i class="fa fa-github"></i></a>
+            </ul>
+        </section>
+    </footer>
     <script type ="module" src="team.js" ></script>
      </body>
     
