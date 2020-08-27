@@ -83,20 +83,35 @@ h1{
     font-style: initial;
  }
  /*Welcome to reach in Banner */
- h3{
+ /*h3{
     position:absolute;
     z-index: 999;
     margin: 0 auto;
     left:21%;
     top: 10%; /* Adjust this value to move the positioned div up and down */
-    width: 60%; /* Set the width of the positioned div */
-    font-size:2.2rem;
+    /*width: 60%; /* Set the width of the positioned div */
+    /*font-size:2.2rem;
     font-weight: 500;
     font-style: oblique;
     color:black;
     padding:1.5%;
     text-align: center;
- }
+ }*/
+
+ h3{
+   display:block;
+   padding-bottom: 0%;
+   font-size: 2rem;
+   font-style: oblique;
+   color:black; 
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   margin-block-start:.1em;
+   margin-block-end: .1em;
+   text-align: center;
+   background-color: snow;
+}
+ 
  h4{
     font-size:1.5rem;
     font-style: italic;
@@ -107,7 +122,9 @@ h1{
     line-height: 0px;
  }
  
-
+.welcome{
+   background-color: snow;
+}
  .navbar {
    background-color: snow;
    display: flex;
@@ -129,17 +146,8 @@ h1{
    color:#74CBC1;
    border-bottom: none;
 }
-  
- a:hover {
-   background-color: snow;
-   cursor: pointer;
-   font-weight: bold;
-   border-bottom: 0.2rem solid #74CBC1;
- }
- /* .home{
-   color:#74CBC1;
- } */
- a::before {
+ 
+a::before {
    color:black;
    text-decoration: none;
 }
@@ -147,6 +155,15 @@ h1{
    color:#74CBC1;
    text-decoration: none;
 }
+  
+ a:hover {
+   background-color: snow;
+   cursor: pointer;
+   font-weight: bold;
+   border-bottom: 0.15rem solid #74CBC1;
+ }
+
+
  .NavbarLink {
    padding-right:1.4rem;
    padding-left: 1.4rem;
@@ -174,21 +191,15 @@ h1{
   banner{ 
     margin:0 auto;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 0% 0%;
     width:100%;
-    /* flex-wrap: wrap;  */
-    /* background-color: rgb(207, 248, 248);Used if the image is unavailable */
-    /* background-image: url('/asset/duy-pham-Cecb0_8Hx-o-unsplash_large.jpg'); */
-    /* background-image: url('asset/matthew-t-rader-CVmzj-a8Fmg-unsplash.jpg'); */
-	/* background-size: cover;
-	background-position: top;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-   text-align: center;
-   opacity: 95%;
-	border-top: 0.5em solid,#3DC5AD; */
   }
+  
  banner img{
+    /* display:block; */
+    padding-top: 0% 0%;
     width: 100%;
     opacity: 90%;
     object-fit:cover;
@@ -199,8 +210,7 @@ banner p{
     z-index: 999;
     margin: 0 auto;
     left:18%;
-    top: 26%; /* Adjust this value to move the positioned div up and down */
-    text-align: center;
+    top: 28%; /* Adjust this value to move the positioned div up and down */
     width: 65%; /* Set the width of the positioned div */
     font-size:1.4rem;
     font-weight: 500;
@@ -476,6 +486,7 @@ banner p{
    .NavbarItems{
       padding-top: 0.1rem;
       align-self:flex-end;
+      /* align-items: flex-end; */
       justify-content:space-evenly;
    }
  /* Make Navbar Items not Visible on mobile*/    
@@ -484,8 +495,9 @@ banner p{
    }
 
    footer .NavbarItems{
-      display:flex;
+      /* display:flex; */
       flex-direction: column; 
+      align-items: center;
    }
  .NavbarItemsright {
      margin-left:0;
@@ -518,27 +530,28 @@ banner p{
       padding:1%;
       text-align: center;
    }
-h3{
-   left:4%;
-   top: 27%; /* Adjust this value to move the positioned div up and down */
-   width: 90%; /* Set the width of the positioned div */
-   font-size:2rem;
-   padding:0.5%;
-}
+   h3{
+      font-size:1.4rem;
+      padding:0%;
+      text-align: center;
+   }
  
-/* banner {
-   margin-top:10%;
-   height:10rem;
-} */
-
+ 
+ /* banner p{
+   text-align: center;
+   font-size:1.1rem;
+   font-weight: 300;
+  margin-top: 4rem;
+ } */
 banner p{
-   font-size: 1.2rem;
+   text-align: center;
    padding:1%;
-    left:11%;
-    top: 38%; /* Adjust this value to move the positioned div up and down */
+    left:11%; 
+    top: 30%; /* Adjust this value to move the positioned div up and down */
     width: 85%; /* Set the width of the positioned div */
-    font-size:1.2rem;
-    font-weight: 500;
+    font-size:1.1rem;
+    font-weight: 300; 
+    display: none;
 }
 
 .midcontainer{
@@ -556,15 +569,15 @@ height:15rem;
 .midcontainer div{
   width:80%;
 }
-/* .mlogin{
+ .mlogin{
    position:absolute;
    z-index: 999;
    margin: 0 auto;
    left:38%;
    top: 10%; /* Adjust this value to move the positioned div up and down */
-   /* width: 26%; /* Set the width of the positioned div */
-   /* text-align: center; */
-/* }  */ 
+   width: 26%; /* Set the width of the positioned div */
+    text-align: center; 
+}  
 .learn{
      font-size: 0.8rem;
      height: 2.8rem;
@@ -640,17 +653,10 @@ height:15rem;
          padding:1%;
          text-align: center;
       }
-   h3{
-     left:2%;
-     top: 25%; /* Adjust this value to move the positioned div up and down */
-     width: 90%; /* Set the width of the positioned div */
-     font-size:2rem;
-     padding:0.5%;
-  }
-  
-  banner {
+     
+  /* banner {
      margin-top:4%
-    }
+    } */
    banner img{
       height: 30rem;
    }
@@ -659,10 +665,10 @@ height:15rem;
      /* font-size: 1.6rem; */
      padding:1%;
       left:6%;
-      top: 35%; /* Adjust this value to move the positioned div up and down */
+      top: 45%; /* Adjust this value to move the positioned div up and down */
       width: 85%; /* Set the width of the positioned div */
-      font-size:1.3rem;
-      font-weight: 500;
+      font-size:1.1rem;
+      font-weight: 300;
   }
   
   .midcontainer{
