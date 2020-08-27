@@ -458,11 +458,13 @@ padding:1%;
 @media only screen and (max-width: 500px){
 header{
    margin-top: 1rem;
+   background-color: snow;
 }  
 .NavbarItems,
 .navbar {
     flex-direction: column;
     align-items: flex-start;
+    font-size: 1rem;
     padding-bottom: 0.5rem;
     padding-top:0.5rem;
   }
@@ -479,7 +481,7 @@ header{
   }
 
   h5{
-   font-size:1.2rem;
+   font-size:1rem;
 }
   footer .NavbarItems{
      display:flex;
@@ -523,19 +525,23 @@ header{
      padding:1%;
      text-align: center;
   }
-h3{
+h3{   
   left:4%;
   top: 24%; /* Adjust this value to move the positioned div up and down */
   width: 90%; /* Set the width of the positioned div */
-  font-size:2rem;
+  font-size:1.4rem;
   padding:0.5%;
 }
-
+banner {
+   height: 20rem;
+   width: 100%;
+   object-fit: contain;
+}
 banner p{
    left:18%;
    top: 32%; /* Adjust this value to move the positioned div up and down */
    width: 70%; /* Set the width of the positioned div */
-   font-size:1.2rem;
+   font-size:1.1rem;
    font-weight: 300;
    opacity: 90%;
    }
@@ -563,9 +569,13 @@ banner p{
 
  
 .midcontainer div{
-   width:50%;
+   width:80%;
    margin-top: 3rem;
    padding: 1rem;
+}
+
+.midcontainer P{
+   font-size: 1rem;
 }
 /* Hide toggle icon for footer view */
 footer .NavbarLink-toggle {
@@ -576,7 +586,7 @@ footer img{
 }
 
 .footersocialicons a{
-  width: 4rem;
+  width: 3rem;
 }
 
 }
@@ -586,6 +596,7 @@ footer img{
 
   header{
      margin-top: 1rem;
+     background-color: snow;
   }  
  .NavbarItems,
   .navbar {
@@ -598,6 +609,7 @@ footer img{
   .NavbarItems {
       display:none;
     }
+ 
    banner team h3{
       left:4%;
       top: 1%; /* Adjust this value to move the positioned div up and down */

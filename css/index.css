@@ -543,6 +543,9 @@ banner p{
    font-weight: 300;
   margin-top: 4rem;
  } */
+ banner img{
+    height: 15rem;
+ }
 banner p{
    text-align: center;
    padding:1%;
