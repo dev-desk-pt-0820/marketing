@@ -475,6 +475,7 @@ banner p{
 @media only screen and (max-width: 500px){
  header{
     margin-top: 1rem;
+    background-color: snow;
  }  
 .NavbarItems,
  .navbar {
@@ -482,6 +483,7 @@ banner p{
      align-items: flex-start;
      /* align-items: flex-end; */
      padding-bottom: 0.1rem;
+     font-size: 1rem;
    }
    .NavbarItems{
       padding-top: 0.1rem;
@@ -495,7 +497,7 @@ banner p{
    }
 
    footer .NavbarItems{
-      /* display:flex; */
+      display:flex; 
       flex-direction: column; 
       align-items: center;
    }
@@ -535,7 +537,10 @@ banner p{
       padding:0%;
       text-align: center;
    }
- 
+
+   .footersocialicons h4{
+     font-size: 1rem;
+  }
  
  /* banner p{
    text-align: center;

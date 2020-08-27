@@ -562,6 +562,7 @@ banner p{
 
 .midcontainer{
    flex-direction: column;
+   flex-wrap: wrap;
    justify-content: space-evenly;
    align-items: center;
    align-content: center;
@@ -588,7 +589,9 @@ footer img{
 .footersocialicons a{
   width: 3rem;
 }
-
+.footersocialicons h4{
+   font-size: 1rem;
+}
 }
 /************** FOR 800 PX TAB**********************/
 @media only screen and (min-width:501px) and (max-width:810px) 
@@ -654,6 +657,7 @@ footer img{
       width:60%;
       margin-top: 3rem;
    }
+    
        
     footer .NavbarItems{
        display:flex;
@@ -716,6 +720,10 @@ footer img{
 }
 .footersocialicons a{
   width: 5rem;
+}
+
+.footersocialicons h4{
+   font-size: 1rem;
 }
 
 }
