@@ -210,7 +210,7 @@ banner p{
     z-index: 999;
     margin: 0 auto;
     left:18%;
-    top: 28%; /* Adjust this value to move the positioned div up and down */
+    top: 32%; /* Adjust this value to move the positioned div up and down */
     width: 65%; /* Set the width of the positioned div */
     font-size:1.4rem;
     font-weight: 500;
@@ -670,13 +670,7 @@ height:15rem;
    }
   
   banner p{
-     /* font-size: 1.6rem; */
-     padding:1%;
-      left:6%;
-      top: 45%; /* Adjust this value to move the positioned div up and down */
-      width: 85%; /* Set the width of the positioned div */
-      font-size:1.1rem;
-      font-weight: 300;
+    display:none;
   }
   
   .midcontainer{

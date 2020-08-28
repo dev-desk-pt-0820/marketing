@@ -43,30 +43,31 @@
 
         <div class='id'>
             <div class="name">
-                <label>Your Name</label>
-                <input type="text" id="name" placeholder="Enter your Name here">
+                <label for="yourname">Your Name</label>
+                <!-- The label element's for attribute matches the id attribute of the input element. -->
+                <input type="text" name="yourname" id="yourname" placeholder="Enter your Name here">
             </div>
             <div class="email">
-                <label>Your Email</label>
-                <input type="text" id="email" placeholder="Enter your Email ID">
-        </div>
+                <label for="youremail">Your Email</label>
+                <input type="text" name="youremail" id="youremail" placeholder="Enter your Email ID">
+            </div>
         </div>
         <section class="phonesub">
         <div class='phone'>
-            <label>Phone No.</label>
-            <input type="text" id="phonenum" placeholder="Enter your Phone number">
+            <label for="phoneno">Phone No.</label>
+            <input type="text" name="phoneno" id="phoneno" placeholder="Enter your Phone number">
         </div>        
 
         <div class='subject'>
-            <label>Msg Subject</label>
-            <input type="text" id="subj" placeholder="Enter your Subject ">
+            <label for="subject">Msg Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Enter your Subject ">
         </div>
         </section>
 
         
         <div class='Message'>
-            <label>Message for us!</label>
-            <textarea rows="8" placeholder="Enter your message please"></textarea>
+            <label for="message">Message for us!</label>
+            <textarea rows="8" name="message" id="message" placeholder="Enter your message please"></textarea>
         </div>
         
         <div class='buttonclass'>

@@ -256,7 +256,7 @@ banner p{
     border-radius: 4%;
     /* border-bottom: 1px dashed black; */ 
   }
-
+  
   .indvsocial a{
      /* social icons in indiv sectio */
     text-decoration: none;
@@ -460,6 +460,9 @@ header{
    margin-top: 1rem;
    background-color: snow;
 }  
+
+ 
+
 .NavbarItems,
 .navbar {
     flex-direction: column;
@@ -496,7 +499,7 @@ header{
   }
 .NavbarItemsright {
     margin-left:0;
-    align-self: center;
+    align-self:stretch;
     padding:0%;
   }
    
@@ -526,8 +529,8 @@ header{
      text-align: center;
   }
 h3{   
-  left:4%;
-  top: 24%; /* Adjust this value to move the positioned div up and down */
+  left:7%;
+  top: 26%; /* Adjust this value to move the positioned div up and down */
   width: 90%; /* Set the width of the positioned div */
   font-size:1.4rem;
   padding:0.5%;
@@ -539,9 +542,9 @@ banner {
 }
 banner p{
    left:18%;
-   top: 32%; /* Adjust this value to move the positioned div up and down */
+   top: 38%; /* Adjust this value to move the positioned div up and down */
    width: 70%; /* Set the width of the positioned div */
-   font-size:1.1rem;
+   font-size:1rem;
    font-weight: 300;
    opacity: 90%;
    }
@@ -612,22 +615,24 @@ footer img{
   .NavbarItems {
       display:none;
     }
+    
  
    banner team h3{
       left:4%;
       top: 1%; /* Adjust this value to move the positioned div up and down */
       width: 80%; /* Set the width of the positioned div */
-      font-size:1.8rem;
+      font-size:1.2rem;
       padding:0.5%;
     }
     
     banner p{
-      left:18%;
-      top: 38%; /* Adjust this value to move the positioned div up and down */
+      left:12%;
+      top: 55%; /* Adjust this value to move the positioned div up and down */
       width: 70%; /* Set the width of the positioned div */
-      font-size:1.2rem;
+      font-size:1.1rem;
       font-weight: 300;
       opacity: 95%;
+      text-align: center;
       }
     
    .mlogin{
@@ -668,6 +673,8 @@ footer img{
     }
   .NavbarItemsright {
       margin-left:0;
+      align-self: center;
+      align-items: center;
     }
      
   .NavbarToggleShow {
