@@ -482,14 +482,12 @@ banner p{
  .navbar {
      flex-direction: column;
      align-items: flex-start;
-     /* align-items: flex-end; */
      padding-bottom: 0.1rem;
      font-size: 1rem;
    }
    .NavbarItems{
       padding-top: 0.1rem;
       align-self:flex-end;
-      /* align-items: flex-end; */
       justify-content:space-evenly;
    }
  /* Make Navbar Items not Visible on mobile*/    
@@ -525,8 +523,8 @@ banner p{
     a:hover {
       background-color: snow;
       cursor: pointer;
-      color:#74CBC1;
-      border-bottom: 0.1rem solid snow;
+      color:#74CBC1; 
+      border-bottom: 0.1rem solid transparent
     }
     h2{
       font-size:1.4rem;
@@ -543,12 +541,6 @@ banner p{
      font-size: 1rem;
   }
  
- /* banner p{
-   text-align: center;
-   font-size:1.1rem;
-   font-weight: 300;
-  margin-top: 4rem;
- } */
  banner img{
     height: 15rem;
  }
@@ -663,9 +655,6 @@ height:15rem;
          text-align: center;
       }
      
-  /* banner {
-     margin-top:4%
-    } */
    banner img{
       height: 30rem;
    }
@@ -707,4 +696,18 @@ height:15rem;
    width: 5rem;
 }
 
+}
+/************** FOR small phone devices**********************/
+@media only screen and (min-width:250px) and (max-width:350px) 
+{
+   h1{
+      color:darkcyan;
+   }
+banner img{
+   display: none;
+}
+.socialicons {
+   flex-direction: column;
+   align-items: center;
+}
 }
