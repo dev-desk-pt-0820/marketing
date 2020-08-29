@@ -66,14 +66,28 @@ body {
   margin:0 auto;
 }
 
-h1{
+/* h1{
     font-size:3rem;
     font-style: italic;
     font-weight: 500;
     color: black;
     padding:0.5%;
     text-align: left; 
- }
+ } */
+ 
+ h1{
+   display:block;
+   padding-bottom: 0%;
+   font-size: 2rem;
+   font-style: oblique;
+   color:black; 
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   margin-block-start:.1em;
+   margin-block-end: .1em;
+   text-align: center;
+   background-color: snow;
+}
  h2{
     font-size:1.8rem;
     font-weight: 500;
@@ -98,19 +112,6 @@ h1{
     text-align: center;
  }*/
 
- h3{
-   display:block;
-   padding-bottom: 0%;
-   font-size: 2rem;
-   font-style: oblique;
-   color:black; 
-   margin-inline-start: 0px;
-   margin-inline-end: 0px;
-   margin-block-start:.1em;
-   margin-block-end: .1em;
-   text-align: center;
-   background-color: snow;
-}
  
  h4{
     font-size:1.5rem;
@@ -532,7 +533,7 @@ banner p{
       padding:1%;
       text-align: center;
    }
-   h3{
+   h1{
       font-size:1.4rem;
       padding:0%;
       text-align: center;
